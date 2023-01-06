@@ -1,7 +1,7 @@
 {
   "name": "playmate-web",
   "version": "0.1.0",
-  "homepage": "https://playmatephysical.github.io/",
+  "homepage": "https://playmatephysical.github.io/playmate-web",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
