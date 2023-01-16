@@ -15,13 +15,13 @@ function App() {
       <header className="App-header">
         <Navigation style={styles.navContainer} />
         <View>
-          <Routes>
+          <Routes >
             <Route path='/products' element={<Home />} />
             <Route path='/about' element={<Home />} />
             <Route path='/contact' element={<Home />} />
             <Route path='/privacy' element={<Privacy />} />
 
-            <Route path='/' element={<Home />} />
+            <Route exact path='/' element={<Home />} />
           </Routes>
         </View>
 
