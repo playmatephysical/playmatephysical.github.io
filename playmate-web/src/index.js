@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter, BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Router, HashRouter, BrowserRouter, Route, Switch } from 'react-router-dom';
+import { createHashHistory } from 'history';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const history = createHashHistory();
+
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <App/>
     </HashRouter>
   </React.StrictMode>

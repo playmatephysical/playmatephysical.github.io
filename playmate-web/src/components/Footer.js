@@ -18,15 +18,15 @@ function Footer({ year, companyName }) {
             <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingLeft: 20}}>
                 <View style={{ flexDirection: 'row', justifyContent:'start' }}>
                     <Text style={styles.footer}
-                        onPress={() => Linking.openURL('/privacy')}>
+                        onPress={() => Linking.openURL('/#/privacy')}>
                         Privacy
                     </Text>
                     <Text style={styles.footer}
-                        onPress={() => Linking.openURL('/about')}>
+                        onPress={() => Linking.openURL('/#/about')}>
                         About us
                     </Text>
                     <Text style={styles.footer}
-                        onPress={() => Linking.openURL('/contact')}>
+                        onPress={() => Linking.openURL('/#/contact')}>
                         Contact
                     </Text>
                 </View>
